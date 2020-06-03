@@ -152,7 +152,7 @@
 
 .ex-13-button:hover .ex-13-top-white {
   animation-name: twister-top;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 @keyframes twister-top {
   0% { left: 10%; top: -10px; }
@@ -164,7 +164,7 @@
 }
 .ex-13-button:hover .ex-13-bottom-white {
   animation-name: twister-bottom;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 @keyframes twister-bottom {
   0% { right: 20%; bottom: -10px; }
