@@ -150,18 +150,29 @@
 
 /* Esercizio 13 */
 
-
 .ex-13-button:hover .ex-13-top-white {
   animation-name: twister-top;
-  animation-duration: 5s;
-  background-color: red;
+  animation-duration: 4s;
 }
 @keyframes twister-top {
   0% { left: 10%; top: -10px; }
-  25% { left: 85%; top: 10px; }
-  50% { left: 85%; top: 55px; }
-  75% { left: -16%; top: 55px; }
-  100% { left: -16%; top: -10px; }
+  20% { left: 85%; top: -10px; }
+  40% { left: 85%; top: 55px; }
+  70% { left: -16%; top: 55px; }
+  90% { left: -16%; top: -10px; }
+  100% { left: 10%; top: -10px; }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: twister-bottom;
+  animation-duration: 4s;
+}
+@keyframes twister-bottom {
+  0% { right: 20%; bottom: -10px; }
+  20% { right: 85%; bottom: -10px; }
+  40% { right: 85%; bottom: 55px; }
+  70% { right: -16%; bottom: 55px; }
+  90% { right: -16%; bottom: -10px; }
+  100% { right: 20%; bottom: -10px; }
 }
 /* .ex-13-button:hover .ex-13-bottom-white {
   animation-name: twister-bottom;
