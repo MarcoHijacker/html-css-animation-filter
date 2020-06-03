@@ -89,29 +89,15 @@
 
 /* Esercizio 10 */
 
-/* Mia risoluzione, ma ha scatto sui 360gradi... */
-/* .ex-10-icon {
+.ex-10-icon {
   animation-name: rotazione;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 @keyframes rotazione {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(359deg); }
-} */
-
-/* Soluzione da https://flaviocopes.com/rotate-image/ */
-.ex-10-icon {
-  animation: rotation 1s infinite linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
 }
 
 /* Esercizio 11 */
@@ -178,12 +164,3 @@
   90% { right: -16%; bottom: -10px; }
   100% { right: 20%; bottom: -10px; }
 }
-/* .ex-13-button:hover .ex-13-bottom-white {
-  animation-name: twister-bottom;
-  animation-duration: 2s;
-}
-@keyframes twister-bottom {
-  0% { right: 20%; }
-  50% { right: 69%; }
-  100% { right: 20%; }
-} */
